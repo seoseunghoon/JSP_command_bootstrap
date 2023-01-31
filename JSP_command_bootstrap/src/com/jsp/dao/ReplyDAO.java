@@ -3,6 +3,8 @@ package com.jsp.dao;
 import java.sql.SQLException;
 import java.util.List;
 
+import org.apache.ibatis.session.SqlSession;
+
 import com.jsp.command.SearchCriteria;
 import com.jsp.dto.ReplyVO;
 
